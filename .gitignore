@@ -1,0 +1,22 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local credentials and experiment outputs
+.env
+.env.*
+*.pem
+*.key
+runs/
+wandb/
+data/
+datasets/
+*.log
+
+# The provided checkpoints in weight/ are intentional release files.
